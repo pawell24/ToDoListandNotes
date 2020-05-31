@@ -1,0 +1,36 @@
+.wrapper {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+
+    @media (max-width: 750px) {
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    justify-content: center;
+    position: relative;
+    right: 3%;
+    li {
+        list-style: none;
+
+        @media (max-width: 750px) {
+            transform: translateX(-50%);
+            top: 120px;
+            position: relative;
+        }
+
+        a {
+            display: block;
+            margin-left: 10px;
+            font-family: Montserrat;
+            text-decoration: none;
+            color: #818181;
+        }
+    }
+}
+.active {
+    font-weight: bold;
+}

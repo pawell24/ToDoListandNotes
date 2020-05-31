@@ -1,0 +1,11 @@
+.title {
+    font-family: Montserrat;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 14%;
+    @media (max-width: 750px) {
+        top: 30%;
+    }
+}

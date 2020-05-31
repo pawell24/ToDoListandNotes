@@ -1,0 +1,40 @@
+.container {
+    font-family: Montserrat;
+    margin: 0 auto;
+    animation: show 2s ease-out;
+
+    width: 90%;
+    height: 400px;
+    position: relative;
+    position: fixed;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+    a {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        text-decoration: none;
+        padding: 16px 40px;
+        font-size: 22px;
+        color: white;
+        background-color: #1e58ff;
+    }
+    .title {
+        position: absolute;
+        top: 24%;
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+        font-size: 42px;
+    }
+    @keyframes show {
+        0% {
+            top: -60%;
+        }
+        100% {
+            top: 18%;
+        }
+    }
+}

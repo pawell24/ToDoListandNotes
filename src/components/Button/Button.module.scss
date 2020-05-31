@@ -1,0 +1,19 @@
+.button {
+    padding: 12px 21px;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    position: absolute;
+    right: 10%;
+    top: 4%;
+    background-color: #1e58ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px 1px #818181;
+    @media (max-width: 750px) {
+        top: 22%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

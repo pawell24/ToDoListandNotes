@@ -1,0 +1,32 @@
+.itemsWrapper {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+
+    @media (max-width: 750px) {
+        top: 40%;
+    }
+    li {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+        border: 2px solid #1e58ff;
+        padding: 10px;
+        position: relative;
+        right: 5%;
+        @media (max-width: 750px) {
+            position: relative;
+            left: -10%;
+        }
+
+        h1 {
+            color: #1e58ff;
+        }
+        p {
+            font-weight: 600;
+        }
+    }
+}
